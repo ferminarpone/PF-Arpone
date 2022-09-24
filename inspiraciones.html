@@ -1,68 +1,94 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=DM+Mono:wght@500&family=Montserrat&family=Questrial&family=Roboto:wght@500&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="logo.png">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/dceefb6e3f.js" crossorigin="anonymous"></script>
+
     <title>El Galpon</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <link href="estilo.css" rel="stylesheet">
 </head>
+
 <body>
     <div>
-        <header id="encabezado">
-            <div>
-                <a href="index.html" class="logo"><img src="logo.png" alt="Logo" class="imgLogo"></a>
-            </div>
-            <div>
-                <h1><a href="index.html" class="titulo">EL GALPON DE NINO </a></h1>
-            </div>
-            <div id="menu">
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="inspiraciones.html">Insipiracion</a></li>
-                        <li><a href="productos.html">Productos</a></li>
-                        <li><a href="conocenos.html">Conocenos</a></li>
-                        <li><a href="contacto.html">Contacto</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
-        <main>
-            <section>
-                <div>
-                    <h2>Galeria de Inspiracion</h2>
-                    <img src="http://picsum.photos/100/100" alt="">
-                    <img src="http://picsum.photos/100/100" alt="">
-                    <img src="http://picsum.photos/100/100" alt="">
-                    <img src="http://picsum.photos/100/100" alt="">
-                    <img src="http://picsum.photos/100/100" alt="">
-                    <img src="http://picsum.photos/100/100" alt="">
-                    <img src="http://picsum.photos/100/100" alt="">
-                    <img src="http://picsum.photos/100/100" alt="">
-                    <img src="http://picsum.photos/100/100" alt="">
-                    <img src="http://picsum.photos/100/100" alt="">
-                    <img src="http://picsum.photos/100/100" alt="">
-                    <img src="http://picsum.photos/100/100" alt="">
-                    <img src="http://picsum.photos/100/100" alt="">
-                    <img src="http://picsum.photos/100/100" alt="">
-                    <img src="http://picsum.photos/100/100" alt="">
-                    <img src="http://picsum.photos/100/100" alt="">
+        <header>
+            <nav class="encabezado">
+                <div class="logo">
+                    <a href="index.html"><img src="logo.png" alt="Logo" class="imgLogo"></a>
                 </div>
-            </section>
-        </main>
-        <footer>
-            <div id="footerR">
-                <a href="index.html" class="logoFooter"><img src="logo.png" alt="Logo" class="imgLogoFooter"></a>
-                <h3 class="titFooter"> © 2022 Muebles Industriales - El Galpon de Nino<br><br>
+
+                <div class="titulo">
+                    <h1><a href="index.html">EL GALPON DE NINO </a></h1>
+                </div>
+
+                <input type="checkbox" id="check">
+                <label for="check" class="menuH">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
+
+                <ul class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="inspiraciones.html">Insipiracion</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="conocenos.html">Conocenos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+    <main>
+        <section class="container" id="inspiracion">
+            <div>
+                <h2 class="text-center">Galeria de Inspiracion</h2>
+            </div>
+            <div class="row row-cols-3">
+                <div class="col"><img src="http://picsum.photos/400" class="img-fluid" alt=""></div>
+                <div class="col"><img src="http://picsum.photos/400" class="img-fluid" alt=""></div>
+                <div class="col"><img src="http://picsum.photos/400" class="img-fluid" alt=""></div>
+                <div class="col"><img src="http://picsum.photos/400" class="img-fluid" alt=""></div>
+                <div class="col"><img src="http://picsum.photos/400" class="img-fluid" alt=""></div>
+                <div class="col"><img src="http://picsum.photos/400" class="img-fluid" alt=""></div>
+                <div class="col"><img src="http://picsum.photos/400" class="img-fluid" alt=""></div>
+                <div class="col"><img src="http://picsum.photos/400" class="img-fluid" alt=""></div>
+                <div class="col"><img src="http://picsum.photos/400" class="img-fluid" alt=""></div>
+
+            </div>
+        </section>
+    </main>
+    <footer id="footer">
+        <div class="footerR">
+            <a href="index.html" class="logoFooter"><img src="logo.png" alt="Logo" class="imgLogoFooter"></a>
+            <div class="flexFoot">
+                <h3 class="titFooter"> © 2022 Muebles Industriales - El Galpon de Nino<br>
                     <span class="footerD">Todos los derechos reservados</span>
                 </h3>
             </div>
-            <div class="footerL">
-                <h3>Buscanos en Instragram:</h3>
-                <ul>
-                    <a href="https://instagram.com/industrial.muebleslp?igshid=YmMyMTA2M2Y="><img src="logoinstagram.png" alt="Instagram" class="ig"></a>
-                </ul>
-            </div>
-        </footer>
-    </div>
+        </div>
+        <div class="footerL">
+            <h3>Buscanos en Instragram:</h3>
+            <ul>
+                <a href="https://instagram.com/industrial.muebleslp?igshid=YmMyMTA2M2Y="><img src="logoinstagram.png"
+                        alt="Instagram" class="ig"></a>
+            </ul>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+
 </body>
 
 </html>
