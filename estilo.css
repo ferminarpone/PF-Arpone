@@ -282,22 +282,27 @@
 }
 
 @media screen and (min-width: 768px) {
-
-    .titulo {
-        font-size: 4rem;
+    
+    #encabezado{
+        position: absolute;
     }
-
+    .logo{
+        z-index: 1;
+    }
+    
     .menuH {
         display: none;
     }
-
+    
     .menu {
         height: 60px;
-        top: 0;
-        background: none;
+        top: 0; 
+        background:none;
         transition: none;
-        text-align: right;
+        text-align: right; 
         color: #151515;
+        width: 100%;
+        
     }
 
     .menu li {
