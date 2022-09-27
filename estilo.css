@@ -258,6 +258,7 @@
     margin: 70px 0px 20px 0px;
     width: 100%;
     border: solid;
+    font-family: 'Montserrat', sans-serif;
     
 }
 #productos .parrafo{
@@ -279,6 +280,7 @@
 #productos .galeriaProd {
     margin: 20px 0 20px 0px;
     border: solid;
+    font-family: 'Montserrat', sans-serif;
 }
 
 @media screen and (min-width: 768px) {
@@ -286,10 +288,10 @@
     #encabezado{
         position: absolute;
     }
-    .logo{
+    
+    .logo , .titulo h1{
         z-index: 1;
     }
-    
     .menuH {
         display: none;
     }
