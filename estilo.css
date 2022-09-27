@@ -235,23 +235,30 @@
     display: block;
     margin-right: 40px;
 }
+
 /* AGREGAR FORMATO TEXTO */
-#inspiracion h2{
-    margin:60px 0 20px 0;
-    background-color: black;
-    color: aliceblue;
+#inspiracion h2 {
+    margin: 70px 0 20px 0;
     width: 100%;
+    color: #151515;;
+    font-family: 'Montserrat', sans-serif;
+    border: solid;
+    
 
 }
-#inspiracion .col{
-    padding-bottom: 14px;
+
+#inspiracion .imgCenter{
+    justify-content: center;
 }
+
+
 
 @media screen and (min-width: 768px) {
 
-    .titulo{
+    .titulo {
         font-size: 4rem;
     }
+
     .menuH {
         display: none;
     }
