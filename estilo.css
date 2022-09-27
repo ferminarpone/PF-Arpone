@@ -250,8 +250,36 @@
 #inspiracion .imgCenter{
     justify-content: center;
 }
+#productos .imgCenter{
+    justify-content: center;
+}
 
-
+#productos .tituloProd {
+    margin: 70px 0px 20px 0px;
+    width: 100%;
+    border: solid;
+    
+}
+#productos .parrafo{
+    background-image: url(https://images.pexels.com/photos/5845978/pexels-photo-5845978.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+}
+#productos p {
+    padding: 10px 0px 10px 0px;
+    font-size: 1.6rem;
+    font-family: 'Questrial', sans-serif;
+    width: 75%;
+    margin: auto;
+    color: white;
+    
+}
+#productos .galeriaProd {
+    margin: 20px 0 20px 0px;
+    border: solid;
+}
 
 @media screen and (min-width: 768px) {
 
