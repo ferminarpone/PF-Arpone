@@ -12,7 +12,6 @@
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
-    background-color: white;
     color: #151515;
     width: 100%;
     height: 60px;
@@ -59,10 +58,11 @@
     width: 100%;
     height: 0vh;
     top: 60px;
-    background-color: #010000;
+    background-color: #F9F5EB;
     text-align: center;
     transition: .5s;
     list-style: none;
+    opacity: 0.9;
 }
 
 .menu li {
@@ -72,14 +72,15 @@
 }
 
 .menu li a {
-    color: white;
+    color: #151515;
     text-decoration: none;
     font-size: 1.2rem;
 }
 
 .menu li a:hover {
-    color: #ff6337db;
-    transition: .5s;
+    color: #1C3879;
+    transition: .2s;
+    /* ANIMACION */
 }
 
 #check {
@@ -87,7 +88,7 @@
 }
 
 #check:checked~.menu {
-    height: 160px;
+    height: 165px;
 }
 
 #check:checked~.menu li {
@@ -144,6 +145,7 @@
 }
 
 #principal a {
+    /* ANIMACION */
     background-color: #ff6337db;
     color: white;
     font-family: 'Questrial', sans-serif;
@@ -162,7 +164,7 @@
 }
 
 #footer {
-    background-color:white;
+    background-color: white;
     color: #151515;
     display: flex;
     justify-content: space-between;
@@ -237,25 +239,29 @@
     margin-right: 40px;
 }
 
-#inspiracion{
+#inspiracion {
     margin-bottom: 10px;
 }
+
 #inspiracion h2 {
     margin: 70px 0 20px 0px;
     width: 100%;
-    color: #151515;;
+    color: #151515;
+    ;
     font-family: 'Montserrat', sans-serif;
     background-color: #F9F5EB;
     font-size: 3rem;
 }
 
-#inspiracion .imgCenter{
+#inspiracion .imgCenter {
     justify-content: center;
 }
-#productos{
+
+#productos {
     margin-bottom: 10px;
 }
-#productos .imgCenter{
+
+#productos .imgCenter {
     justify-content: center;
 }
 
@@ -265,15 +271,17 @@
     background-color: #F9F5EB;
     font-family: 'Montserrat', sans-serif;
     font-size: 3rem;
-    
+
 }
-#productos .parrafo{
+
+#productos .parrafo {
     background-image: url(https://images.pexels.com/photos/5845978/pexels-photo-5845978.jpeg?auto=compress&cs=tinysrgb&w=600);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     opacity: 0.9;
 }
+
 #productos p {
     padding: 10px 0px 10px 0px;
     font-size: 1.6rem;
@@ -281,8 +289,9 @@
     width: 75%;
     margin: auto;
     color: white;
-    
+
 }
+
 #productos .galeriaProd {
     margin: 20px 0 20px 0px;
     font-family: 'Montserrat', sans-serif;
@@ -290,70 +299,74 @@
     background-color: #F9F5EB;
 }
 
-#nosotros h1{
+#nosotros h1 {
     margin-top: 75px;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     background-color: #F9F5EB;
     font-size: 3rem;
     text-decoration: solid;
-    
+
 }
 
-#nosotros .tituloCon{
-    
+#nosotros .tituloCon {
+
     width: 100%;
     background-image: url(https://images.pexels.com/photos/5845978/pexels-photo-5845978.jpeg?auto=compress&cs=tinysrgb&w=600);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    opacity: 0.9;}
+    opacity: 0.9;
+}
 
 
-#nosotros .texto{
+#nosotros .texto {
     width: 60%;
     margin: 20%;
-    color:#010000;
+    color: #010000;
     width: 70%;
     text-align: center;
     display: inline-block;
     opacity: 0.7;
 }
-#nosotros .texto h2{
+
+#nosotros .texto h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
 }
-#nosotros .texto p{
+
+#nosotros .texto p {
     font-family: 'Questrial', sans-serif;
     font-size: 1.6rem;
-   
+
 }
 
-#nosotros .titNos{
+#nosotros .titNos {
     font-family: 'Montserrat', sans-serif;
     font-size: 2rem;
-   
+
 }
-#nosotros .parNos{
+
+#nosotros .parNos {
     font-family: 'Questrial', sans-serif;
     font-size: 1.3rem;
-    }
+}
 
 
-#formulario{
+#formulario {
     margin-top: 70px;
     background-image: url(https://images.pexels.com/photos/5845978/pexels-photo-5845978.jpeg?auto=compress&cs=tinysrgb&w=600);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     opacity: 0.9;
-    height:500px;
+    height: 500px;
     display: flex;
     justify-content: center;
-    align-items:center ;
+    align-items: center;
 }
 
-#formulario .form{
+#formulario .form {
     width: 60%;
     height: 65%;
     background-color: white;
@@ -363,38 +376,63 @@
     font-size: 6rem;
     opacity: 0.9;
 }
-#formulario .form h2{
+
+#formulario .form h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 3rem;
-   
+
 }
-#formulario .form hr{
+
+#formulario .form hr {
     padding-bottom: 15px;
 }
 
 
 @media screen and (min-width: 768px) {
-    
-    #encabezado{
+
+    #principal h2 {
+        padding-top: 4%;
+    }
+
+    .p1 {
+        margin-top: 4%;
+        width: 350px;
+    }
+
+    .p2 {
+        margin-top: 4%;
+    }
+
+    .p3 {
+        margin-top: 4%;
+    }
+
+    #principal a {
+        margin: 6%;
+    }
+
+    #encabezado {
         position: absolute;
     }
-    
-    .logo , .titulo h1{
+
+    .logo,
+    .titulo h1 {
         z-index: 1;
     }
+
     .menuH {
         display: none;
     }
-    
+
     .menu {
         height: 60px;
-        top: 0; 
-        background:none;
+        top: 0;
+        background: none;
         transition: none;
-        text-align: right; 
+        text-align: right;
         color: #151515;
         width: 100%;
-        
+
     }
 
     .menu li {
@@ -416,14 +454,17 @@
         height: 18px;
     }
 }
-    @media screen and (min-width: 992px){
-        #nosotros .titNos{
-            
-            font-size: 3rem;
-           
-        }
-        #nosotros .parNos{
-            
-            font-size: 1.5rem;
-            }
+
+@media screen and (min-width: 992px) {
+
+    #nosotros .titNos {
+
+        font-size: 3rem;
+
     }
+
+    #nosotros .parNos {
+
+        font-size: 1.5rem;
+    }
+}
