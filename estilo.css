@@ -333,8 +333,43 @@
 }
 #nosotros .parNos{
     font-family: 'Questrial', sans-serif;
-    font-size: 1rem;
+    font-size: 1.3rem;
     }
+
+
+#formulario{
+    margin-top: 70px;
+    background-image: url(https://images.pexels.com/photos/5845978/pexels-photo-5845978.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+    height:500px;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}
+
+#formulario .form{
+    width: 60%;
+    height: 65%;
+    background-color: white;
+    padding: 15px;
+    border-radius: 2%;
+    font-family: 'Questrial', sans-serif;
+    font-size: 6rem;
+    opacity: 0.9;
+}
+#formulario .form h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+   
+}
+#formulario .form hr{
+    padding-bottom: 15px;
+}
+
+
 @media screen and (min-width: 768px) {
     
     #encabezado{
