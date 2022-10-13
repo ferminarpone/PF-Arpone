@@ -8,7 +8,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=DM+Mono:wght@500&family=Montserrat&family=Questrial&family=Roboto:wght@500&display=swap"
         rel="stylesheet">
-    <link rel="icon" href="logo.png">
+    <link rel="icon" href="../logos/logo.png">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://kit.fontawesome.com/dceefb6e3f.js" crossorigin="anonymous"></script>
@@ -18,7 +18,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 
-    <link href="estilo.css" rel="stylesheet">
+    <link href="../css/estilo.css" rel="stylesheet">
 
 </head>
 
@@ -27,7 +27,7 @@
         <header>
             <nav class="encabezado">
                 <div class="logo">
-                    <a href="index.html"><img src="logo.png" alt="Logo" class="imgLogo"></a>
+                    <a href="index.html"><img src="../logos/logo.png" alt="Logo" class="imgLogo"></a>
                 </div>
 
                 <div class="titulo">
@@ -50,20 +50,44 @@
 
             </nav>
         </header>
-
         <main>
-            <section id="principal">
-                <h2> MUEBLES INDUSTRIALES</h2>
-                <p class="p1">Fabricamos todo tipo de muebles y artefactos de estilo industrial. </p>
-                <p class="p2">¿Tenes una idea, pero no lo conseguis? <br>Nosotros lo fabricamos.</p>
-                <p class="p3">¿Tu idea no te convence?<br> Nosotros te inspiramos.
-                </p>
-                <a href="contacto.html">Contactanos</a>
+            <section id="formulario" class="container">
+                <div class="form">
+                    <h2>CONTACTO</h2>
+                    <hr>
+                    <form>
+                        <div class="row">
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre"
+                                    required>
+                            </div>
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido"
+                                    required>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">E-mail</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="name@example.com">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Comentarios</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+
+                        <div class="col-12">
+                            <button class="btn btn-primary" type="submit">Enviar</button>
+                        </div>
+                    </form>
+                </div>
             </section>
         </main>
-        <footer id="footer">
+        <footer class="container
+        " id="footer">
             <div class="footerR">
-                <a href="index.html" class="logoFooter"><img src="logo.png" alt="Logo" class="imgLogoFooter"></a>
+                <a href="index.html" class="logoFooter"><img src="../logos/logo.png" alt="Logo" class="imgLogoFooter"></a>
                 <div class="flexFoot">
                     <h3 class="titFooter"> © 2022 Muebles Industriales - El Galpon de Nino<br>
                         <span class="footerD">Todos los derechos reservados</span>
@@ -74,7 +98,7 @@
                 <h3>Buscanos en Instragram:</h3>
                 <ul>
                     <a href="https://instagram.com/industrial.muebleslp?igshid=YmMyMTA2M2Y="><img
-                            src="logoinstagram.png" alt="Instagram" class="ig"></a>
+                            src="../logos/logoinstagram.png" alt="Instagram" class="ig"></a>
                 </ul>
             </div>
         </footer>
