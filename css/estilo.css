@@ -283,7 +283,6 @@
     background-color: #F9F5EB;
     font-family: 'Montserrat', sans-serif;
     font-size: 3rem;
-
 }
 
 #productos .parrafo {
@@ -408,11 +407,10 @@
 #formulario .form h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 3rem;
-
 }
 
 #formulario .form hr {
-    padding-bottom: 15px;
+    padding-bottom: 8px;
 }
 
 
