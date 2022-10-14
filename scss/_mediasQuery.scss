@@ -1,0 +1,64 @@
+@media screen and (min-width: 768px) {
+
+    #principal {
+        h2 {
+            padding-top: 4%;
+        }
+        p {
+            margin-top: 4%;
+        }
+        .p1 {
+            width: 350px;
+        }
+        a {
+            margin: 6%;
+        }
+    }
+    #encabezado {
+        position: absolute;
+    }
+    .logo,
+    .titulo h1 {
+        z-index: 1;
+    }
+    .menuH {
+        display: none;
+    }
+    .menu {
+        height: 60px;
+        top: 0;
+        background: none;
+        transition: none;
+        text-align: right;
+        color: #151515;
+        width: 100%;
+            li {
+                display: inline-block;
+                font-family: 'Montserrat', sans-serif;
+                padding-right: 20px;
+                font-size: 2rem;
+                line-height: 60px;
+                    a {
+                        text-decoration: none;
+                        text-align: center;
+                        color: #151515;
+                    }
+            }
+    }
+    .menu ul li a:hover {
+        color: #ff6337db;
+        height: 18px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+
+    #nosotros {
+        .titNos {
+            font-size: 3rem;
+         }
+         .parNos {
+            font-size: 1.5rem;
+         }
+    }   
+}
