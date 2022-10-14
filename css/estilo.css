@@ -1,496 +1,525 @@
+/* line 1, ../../../../../../../../../../../../../Users/ferminarpone/Desktop/Desarrollo Web /Trabajo Final/Pre entrega3/scss/estilo.scss */
 * {
-    font-size: 62.5%;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  font-size: 62.5%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+/* line 8, ../../../../../../../../../../../../../Users/ferminarpone/Desktop/Desarrollo Web /Trabajo Final/Pre entrega3/scss/estilo.scss */
 .encabezado {
-    position: fixed;
-    top: 0;
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-items: center;
-    color: #151515;
-    width: 100%;
-    height: 60px;
-    z-index: 10;
-    font-family: 'Montserrat', sans-serif;
-    background-color: #F9F5EB;
+  position: fixed;
+  top: 0;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  color: #151515;
+  width: 100%;
+  height: 60px;
+  z-index: 10;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #F9F5EB;
 }
 
+/* line 23, ../../../../../../../../../../../../../Users/ferminarpone/Desktop/Desarrollo Web /Trabajo Final/Pre entrega3/scss/estilo.scss */
 .logo {
-    width: auto;
-    align-items: center;
+  width: auto;
+  align-items: center;
 }
 
+/* line 28, ../../../../../../../../../../../../../Users/ferminarpone/Desktop/Desarrollo Web /Trabajo Final/Pre entrega3/scss/estilo.scss */
 .imgLogo {
-    display: inline-block;
-    width: 45px;
-    height: 45px;
-    margin: 6px 0px 0px 8px;
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  margin: 6px 0px 0px 8px;
 }
 
+/* line 35, ../../../../../../../../../../../../../Users/ferminarpone/Desktop/Desarrollo Web /Trabajo Final/Pre entrega3/scss/estilo.scss */
 .titulo {
-    display: flex;
-    width: 100%;
-    margin-left: 6px;
+  display: flex;
+  width: 100%;
+  margin-left: 6px;
 }
 
-.titulo h1{
-    align-items: center;
-    justify-content: center;
-    font-size: 3.5rem;
+/* line 40, ../../../../../../../../../../../../../Users/ferminarpone/Desktop/Desarrollo Web /Trabajo Final/Pre entrega3/scss/estilo.scss */
+.titulo h1 {
+  align-items: center;
+  justify-content: center;
+  font-size: 3.5rem;
 }
 
-.titulo a {
-    color: inherit;
-    text-decoration: none; 
+/* line 45, ../../../../../../../../../../../../../Users/ferminarpone/Desktop/Desarrollo Web /Trabajo Final/Pre entrega3/scss/estilo.scss */
+.titulo h1 a {
+  color: inherit;
+  text-decoration: none;
 }
 
+/* line 53, ../../../../../../../../../../../../../Users/ferminarpone/Desktop/Desarrollo Web /Trabajo Final/Pre entrega3/scss/estilo.scss */
 .menuH {
-    font-size: 30px;
-    color: #151515;
-    margin-right: 20px;
-    cursor: pointer;
+  font-size: 30px;
+  color: #151515;
+  margin-right: 20px;
+  cursor: pointer;
 }
 
+/* line 61, ../../../../../../../../../../../../../Users/ferminarpone/Desktop/Desarrollo Web /Trabajo Final/Pre entrega3/scss/estilo.scss */
 .menu {
-    position: fixed;
-    width: 100%;
-    height: 0vh;
-    top: 60px;
-    background-color: #F9F5EB;
-    text-align: center;
-    transition: .5s;
-    list-style: none;
-    opacity: 0.9;
+  position: fixed;
+  width: 100%;
+  height: 0vh;
+  top: 60px;
+  background-color: #F9F5EB;
+  text-align: center;
+  transition: .5s;
+  list-style: none;
+  opacity: 0.9;
 }
 
+/* line 72, ../../../../../../../../../../../../../Users/ferminarpone/Desktop/Desarrollo Web /Trabajo Final/Pre entrega3/scss/estilo.scss */
 .menu li {
-    display: none;
-    line-height: 30px;
-    transition: 0.5s;
+  display: none;
+  line-height: 30px;
+  transition: 0.5s;
 }
-.menu li:hover{
-    transform: scale(1.1);
+
+/* line 77, ../../../../../../../../../../../../../Users/ferminarpone/Desktop/Desarrollo Web /Trabajo Final/Pre entrega3/scss/estilo.scss */
+.menu li:hover {
+  transform: scale(1.1);
 }
+
+/* line 81, ../../../../../../../../../../../../../Users/ferminarpone/Desktop/Desarrollo Web /Trabajo Final/Pre entrega3/scss/estilo.scss */
 .menu li a {
-    color: #151515;
-    text-decoration: none;
-    font-size: 1.2rem;
-    
-
+  color: #151515;
+  text-decoration: none;
+  font-size: 1.2rem;
 }
 
+/* line 86, ../../../../../../../../../../../../../Users/ferminarpone/Desktop/Desarrollo Web /Trabajo Final/Pre entrega3/scss/estilo.scss */
 .menu li a:hover {
-    color: #042470;
-    font-weight:bolder;
+  color: #042470;
+  font-weight: bolder;
 }
 
+/* line 94, ../../../../../../../../../../../../../Users/ferminarpone/Desktop/Desarrollo Web /Trabajo Final/Pre entrega3/scss/estilo.scss */
 #check {
-    display: none;
+  display: none;
 }
 
-#check:checked~.menu {
-    height: 165px;
+/* line 97, ../../../../../../../../../../../../../Users/ferminarpone/Desktop/Desarrollo Web /Trabajo Final/Pre entrega3/scss/estilo.scss */
+#check:checked ~ .menu {
+  height: 165px;
 }
 
-#check:checked~.menu li {
-    display: block;
+/* line 100, ../../../../../../../../../../../../../Users/ferminarpone/Desktop/Desarrollo Web /Trabajo Final/Pre entrega3/scss/estilo.scss */
+#check:checked ~ .menu li {
+  display: block;
 }
 
+/* line 107, ../../../../../../../../../../../../../Users/ferminarpone/Desktop/Desarrollo Web /Trabajo Final/Pre entrega3/scss/estilo.scss */
 #principal {
-    display: flex;
-    flex-direction: column;
-    background-image: url(https://images.pexels.com/photos/5845978/pexels-photo-5845978.jpeg?auto=compress&cs=tinysrgb&w=600);
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    max-width: 100%;
-    margin-top: 60px;
-    align-items: center;
-    opacity: 0.9;
+  display: flex;
+  flex-direction: column;
+  background-image: url(https://images.pexels.com/photos/5845978/pexels-photo-5845978.jpeg?auto=compress&cs=tinysrgb&w=600);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  margin-top: 60px;
+  align-items: center;
+  opacity: 0.9;
 }
 
+/* line 119, ../../../../../../../../../../../../../Users/ferminarpone/Desktop/Desarrollo Web /Trabajo Final/Pre entrega3/scss/estilo.scss */
 #principal h2 {
-    color: white;
-    text-align: center;
-    font-size: 3.5rem;
-    font-family: 'DM Mono', monospace;
-    width: auto;
-    padding-top: 10%;
+  color: white;
+  text-align: center;
+  font-size: 3.5rem;
+  font-family: 'DM Mono', monospace;
+  width: auto;
+  padding-top: 10%;
 }
 
-.p1 {
-    color: white;
-    font-family: 'Questrial', sans-serif;
-    font-size: 2.2rem;
-    width: 75%;
-    margin-top: 12%;
-    text-align: center;
+/* line 128, ../../../../../../../../../../../../../Users/ferminarpone/Desktop/Desarrollo Web /Trabajo Final/Pre entrega3/scss/estilo.scss */
+#principal p {
+  color: white;
+  font-family: 'Questrial', sans-serif;
+  font-size: 2rem;
+  width: 75%;
+  margin-top: 10%;
+  text-align: center;
 }
 
-.p2 {
-    color: white;
-    font-family: 'Questrial', sans-serif;
-    font-size: 2rem;
-    width: 75%;
-    margin-top: 10%;
-    text-align: center;
+/* line 137, ../../../../../../../../../../../../../Users/ferminarpone/Desktop/Desarrollo Web /Trabajo Final/Pre entrega3/scss/estilo.scss */
+#principal .p1 {
+  font-size: 2.2rem;
+  margin-top: 12%;
+  width: 75%;
 }
 
-.p3 {
-    color: white;
-    font-family: 'Questrial', sans-serif;
-    font-size: 2rem;
-    width: 75%;
-    margin-top: 10%;
-    text-align: center;
-}
-
+/* line 143, ../../../../../../../../../../../../../Users/ferminarpone/Desktop/Desarrollo Web /Trabajo Final/Pre entrega3/scss/estilo.scss */
 #principal a {
-    background-color: #ff6337db;
-    color: white;
-    font-family: 'Questrial', sans-serif;
-    font-size: 2rem;
-    width: auto;
-    display: block;
-    margin: auto;
-    padding: 10px;
-    margin: 14%;
-    text-align: center;
-    text-decoration: none;
-    transition:all .5s;
+  background-color: #ff6337db;
+  color: white;
+  font-family: 'Questrial', sans-serif;
+  font-size: 2rem;
+  width: auto;
+  display: block;
+  margin: auto;
+  padding: 10px;
+  margin: 14%;
+  text-align: center;
+  text-decoration: none;
+  transition: all .5s;
 }
 
+/* line 157, ../../../../../../../../../../../../../Users/ferminarpone/Desktop/Desarrollo Web /Trabajo Final/Pre entrega3/scss/estilo.scss */
 #principal a:hover {
-    transform: scale(1.1);
-    
+  transform: scale(1.1);
 }
 
+/* line 163, ../../../../../../../../../../../../../Users/ferminarpone/Desktop/Desarrollo Web /Trabajo Final/Pre entrega3/scss/estilo.scss */
 #footer {
-    background-color: white;
-    color: #151515;
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    height: 100px;
+  background-color: white;
+  color: #151515;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100px;
 }
 
-
+/* line 172, ../../../../../../../../../../../../../Users/ferminarpone/Desktop/Desarrollo Web /Trabajo Final/Pre entrega3/scss/estilo.scss */
 .footerR {
-    display: flex;
-    align-content: center;
-    justify-content: flex-start;
-    width: 60%;
-    margin-right: 5%;
-
+  display: flex;
+  align-content: center;
+  justify-content: flex-start;
+  width: 60%;
+  margin-right: 5%;
 }
 
+/* line 181, ../../../../../../../../../../../../../Users/ferminarpone/Desktop/Desarrollo Web /Trabajo Final/Pre entrega3/scss/estilo.scss */
 .logoFooter {
-    display: inline-block;
-    display: flex;
-    align-items: center;
-    margin: 0 4px 0 6px;
-
+  display: inline-block;
+  display: flex;
+  align-items: center;
+  margin: 0 4px 0 6px;
 }
 
+/* line 188, ../../../../../../../../../../../../../Users/ferminarpone/Desktop/Desarrollo Web /Trabajo Final/Pre entrega3/scss/estilo.scss */
 .imgLogoFooter {
-    width: 45px;
-    height: 45px;
+  width: 45px;
+  height: 45px;
 }
 
+/* line 193, ../../../../../../../../../../../../../Users/ferminarpone/Desktop/Desarrollo Web /Trabajo Final/Pre entrega3/scss/estilo.scss */
 .flexFoot {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-left: 5px;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 5px;
 }
 
+/* line 200, ../../../../../../../../../../../../../Users/ferminarpone/Desktop/Desarrollo Web /Trabajo Final/Pre entrega3/scss/estilo.scss */
 .titFooter {
-    display: inline-block;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1rem;
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
 }
 
+/* line 206, ../../../../../../../../../../../../../Users/ferminarpone/Desktop/Desarrollo Web /Trabajo Final/Pre entrega3/scss/estilo.scss */
 .footerD {
-    display: inline-block;
-    font-size: 0.9rem;
-    padding-top: 5px;
+  display: inline-block;
+  font-size: 0.9rem;
+  padding-top: 5px;
 }
 
+/* line 212, ../../../../../../../../../../../../../Users/ferminarpone/Desktop/Desarrollo Web /Trabajo Final/Pre entrega3/scss/estilo.scss */
 .footerL {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-end;
-    margin-right: 10px;
-    width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  margin-right: 10px;
+  width: 40%;
 }
 
+/* line 220, ../../../../../../../../../../../../../Users/ferminarpone/Desktop/Desarrollo Web /Trabajo Final/Pre entrega3/scss/estilo.scss */
 .footerL h3 {
-    display: inline-block;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1rem;
-    text-align: center;
-    margin-bottom: 5px;
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 5px;
 }
 
+/* line 229, ../../../../../../../../../../../../../Users/ferminarpone/Desktop/Desarrollo Web /Trabajo Final/Pre entrega3/scss/estilo.scss */
 .ig {
-    width: 30px;
-    height: 30px;
-    display: block;
-    margin-right: 40px;
+  width: 30px;
+  height: 30px;
+  display: block;
+  margin-right: 40px;
 }
 
+/* line 236, ../../../../../../../../../../../../../Users/ferminarpone/Desktop/Desarrollo Web /Trabajo Final/Pre entrega3/scss/estilo.scss */
 #inspiracion {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
+/* line 239, ../../../../../../../../../../../../../Users/ferminarpone/Desktop/Desarrollo Web /Trabajo Final/Pre entrega3/scss/estilo.scss */
 #inspiracion h2 {
-    margin: 70px 0 20px 0px;
-    width: 100%;
-    color: #151515;
-    font-family: 'Montserrat', sans-serif;
-    background-color: #F9F5EB;
-    font-size: 3rem;
+  margin: 70px 0 20px 0px;
+  width: 100%;
+  color: #151515;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #F9F5EB;
+  font-size: 3rem;
 }
 
+/* line 248, ../../../../../../../../../../../../../Users/ferminarpone/Desktop/Desarrollo Web /Trabajo Final/Pre entrega3/scss/estilo.scss */
 #inspiracion .imgCenter {
-    justify-content: center;
+  justify-content: center;
 }
 
-#inspiracion img{
-    transition: .5s;
+/* line 252, ../../../../../../../../../../../../../Users/ferminarpone/Desktop/Desarrollo Web /Trabajo Final/Pre entrega3/scss/estilo.scss */
+#inspiracion img {
+  transition: .5s;
 }
+
+/* line 255, ../../../../../../../../../../../../../Users/ferminarpone/Desktop/Desarrollo Web /Trabajo Final/Pre entrega3/scss/estilo.scss */
 #inspiracion img:hover {
-    transform: scale(1.2);
+  transform: scale(1.2);
 }
+
+/* line 261, ../../../../../../../../../../../../../Users/ferminarpone/Desktop/Desarrollo Web /Trabajo Final/Pre entrega3/scss/estilo.scss */
 #productos {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
+/* line 264, ../../../../../../../../../../../../../Users/ferminarpone/Desktop/Desarrollo Web /Trabajo Final/Pre entrega3/scss/estilo.scss */
 #productos .imgCenter {
-    justify-content: center;
+  justify-content: center;
 }
 
+/* line 268, ../../../../../../../../../../../../../Users/ferminarpone/Desktop/Desarrollo Web /Trabajo Final/Pre entrega3/scss/estilo.scss */
 #productos .tituloProd {
-    margin: 70px 0px 20px 0px;
-    width: 100%;
-    background-color: #F9F5EB;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 3rem;
+  margin: 70px 0px 20px 0px;
+  width: 100%;
+  background-color: #F9F5EB;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
 }
 
+/* line 276, ../../../../../../../../../../../../../Users/ferminarpone/Desktop/Desarrollo Web /Trabajo Final/Pre entrega3/scss/estilo.scss */
 #productos .parrafo {
-    background-image: url(https://images.pexels.com/photos/5845978/pexels-photo-5845978.jpeg?auto=compress&cs=tinysrgb&w=600);
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    opacity: 0.9;
-    display: flex;
-    justify-content: center;
+  background-image: url(https://images.pexels.com/photos/5845978/pexels-photo-5845978.jpeg?auto=compress&cs=tinysrgb&w=600);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  opacity: 0.9;
+  display: flex;
+  justify-content: center;
 }
 
+/* line 285, ../../../../../../../../../../../../../Users/ferminarpone/Desktop/Desarrollo Web /Trabajo Final/Pre entrega3/scss/estilo.scss */
 #productos .parrafo p {
-    margin: 8%;
-    display: inline-block;
-    width: 60%;
-    background-color: white;
-    padding: 15px;
-    border-radius: 2%;
-    font-family: 'Questrial', sans-serif;
-    font-size: 1.6rem;
-    opacity: 0.7;
-    transition: .5s;
+  margin: 8%;
+  display: inline-block;
+  width: 60%;
+  background-color: white;
+  padding: 15px;
+  border-radius: 2%;
+  font-family: 'Questrial', sans-serif;
+  font-size: 1.6rem;
+  opacity: 0.7;
+  transition: .5s;
 }
-#productos .parrafo p:hover{
-    transform: scale(1.1);
-} 
 
+/* line 297, ../../../../../../../../../../../../../Users/ferminarpone/Desktop/Desarrollo Web /Trabajo Final/Pre entrega3/scss/estilo.scss */
+#productos .parrafo p:hover {
+  transform: scale(1.1);
+}
+
+/* line 303, ../../../../../../../../../../../../../Users/ferminarpone/Desktop/Desarrollo Web /Trabajo Final/Pre entrega3/scss/estilo.scss */
 #productos .galeriaProd {
-    margin: 20px 0 20px 0px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 3rem;
-    background-color: #F9F5EB;
+  margin: 20px 0 20px 0px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  background-color: #F9F5EB;
 }
 
-#productos img{
-    transition: .5s;
+/* line 310, ../../../../../../../../../../../../../Users/ferminarpone/Desktop/Desarrollo Web /Trabajo Final/Pre entrega3/scss/estilo.scss */
+#productos img {
+  transition: .5s;
 }
+
+/* line 313, ../../../../../../../../../../../../../Users/ferminarpone/Desktop/Desarrollo Web /Trabajo Final/Pre entrega3/scss/estilo.scss */
 #productos img:hover {
-    transform: scale(1.2);
+  transform: scale(1.2);
 }
 
+/* line 320, ../../../../../../../../../../../../../Users/ferminarpone/Desktop/Desarrollo Web /Trabajo Final/Pre entrega3/scss/estilo.scss */
 #nosotros h1 {
-    margin-top: 75px;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    background-color: #F9F5EB;
-    font-size: 3rem;
-    text-decoration: solid;
-
+  margin-top: 75px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #F9F5EB;
+  font-size: 3rem;
+  text-decoration: solid;
 }
 
+/* line 329, ../../../../../../../../../../../../../Users/ferminarpone/Desktop/Desarrollo Web /Trabajo Final/Pre entrega3/scss/estilo.scss */
 #nosotros .tituloCon {
-
-    width: 100%;
-    background-image: url(https://images.pexels.com/photos/5845978/pexels-photo-5845978.jpeg?auto=compress&cs=tinysrgb&w=600);
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    opacity: 0.9;
-    display: flex;
+  width: 100%;
+  background-image: url(https://images.pexels.com/photos/5845978/pexels-photo-5845978.jpeg?auto=compress&cs=tinysrgb&w=600);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  opacity: 0.9;
+  display: flex;
 }
 
-
+/* line 339, ../../../../../../../../../../../../../Users/ferminarpone/Desktop/Desarrollo Web /Trabajo Final/Pre entrega3/scss/estilo.scss */
 #nosotros .texto {
-    width: 60%;
-    margin: 20%;
-    color: #010000;
-    width: 70%;
-    text-align: center;
-    display: inline-block;
-    opacity: 0.7;
+  width: 60%;
+  margin: 20%;
+  color: #010000;
+  width: 70%;
+  text-align: center;
+  display: inline-block;
+  opacity: 0.7;
 }
 
+/* line 348, ../../../../../../../../../../../../../Users/ferminarpone/Desktop/Desarrollo Web /Trabajo Final/Pre entrega3/scss/estilo.scss */
 #nosotros .texto h2 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
 }
 
+/* line 353, ../../../../../../../../../../../../../Users/ferminarpone/Desktop/Desarrollo Web /Trabajo Final/Pre entrega3/scss/estilo.scss */
 #nosotros .texto p {
-    font-family: 'Questrial', sans-serif;
-    font-size: 1.6rem;
-   
+  font-family: 'Questrial', sans-serif;
+  font-size: 1.6rem;
 }
 
-
+/* line 360, ../../../../../../../../../../../../../Users/ferminarpone/Desktop/Desarrollo Web /Trabajo Final/Pre entrega3/scss/estilo.scss */
 #nosotros .titNos {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2rem;
-
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
 }
 
+/* line 366, ../../../../../../../../../../../../../Users/ferminarpone/Desktop/Desarrollo Web /Trabajo Final/Pre entrega3/scss/estilo.scss */
 #nosotros .parNos {
-    font-family: 'Questrial', sans-serif;
-    font-size: 1.3rem;
+  font-family: 'Questrial', sans-serif;
+  font-size: 1.3rem;
 }
 
-
+/* line 372, ../../../../../../../../../../../../../Users/ferminarpone/Desktop/Desarrollo Web /Trabajo Final/Pre entrega3/scss/estilo.scss */
 #formulario {
-    margin-top: 70px;
-    background-image: url(https://images.pexels.com/photos/5845978/pexels-photo-5845978.jpeg?auto=compress&cs=tinysrgb&w=600);
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    opacity: 0.9;
-    height: 510px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  margin-top: 70px;
+  background-image: url(https://images.pexels.com/photos/5845978/pexels-photo-5845978.jpeg?auto=compress&cs=tinysrgb&w=600);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  opacity: 0.9;
+  height: 510px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+/* line 384, ../../../../../../../../../../../../../Users/ferminarpone/Desktop/Desarrollo Web /Trabajo Final/Pre entrega3/scss/estilo.scss */
 #formulario .form {
-    width: 60%;
-    height: 65%;
-    background-color: white;
-    padding: 15px;
-    border-radius: 2%;
-    font-family: 'Questrial', sans-serif;
-    opacity: 0.9;
+  width: 60%;
+  height: 65%;
+  background-color: white;
+  padding: 15px;
+  border-radius: 2%;
+  font-family: 'Questrial', sans-serif;
+  opacity: 0.9;
 }
 
+/* line 393, ../../../../../../../../../../../../../Users/ferminarpone/Desktop/Desarrollo Web /Trabajo Final/Pre entrega3/scss/estilo.scss */
 #formulario .form h2 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 3rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
 }
 
+/* line 398, ../../../../../../../../../../../../../Users/ferminarpone/Desktop/Desarrollo Web /Trabajo Final/Pre entrega3/scss/estilo.scss */
 #formulario .form hr {
-    padding-bottom: 8px;
+  padding-bottom: 8px;
 }
-
 
 @media screen and (min-width: 768px) {
-
-    #principal h2 {
-        padding-top: 4%;
-    }
-
-    .p1 {
-        margin-top: 4%;
-        width: 350px;
-    }
-
-    .p2 {
-        margin-top: 4%;
-    }
-
-    .p3 {
-        margin-top: 4%;
-    }
-
-    #principal a {
-        margin: 6%;
-    }
-
-    #encabezado {
-        position: absolute;
-    }
-
-    .logo,
-    .titulo h1 {
-        z-index: 1;
-    }
-
-    .menuH {
-        display: none;
-    }
-
-    .menu {
-        height: 60px;
-        top: 0;
-        background: none;
-        transition: none;
-        text-align: right;
-        color: #151515;
-        width: 100%;
-
-    }
-
-    .menu li {
-        display: inline-block;
-        font-family: 'Montserrat', sans-serif;
-        padding-right: 20px;
-        font-size: 2rem;
-        line-height: 60px;
-    }
-
-    .menu li a {
-        text-decoration: none;
-        text-align: center;
-        color: #151515;
-    }
-
-    .menu ul li a:hover {
-        color: #ff6337db;
-        height: 18px;
-    }
+  /* line 407, ../../../../../../../../../../../../../Users/ferminarpone/Desktop/Desarrollo Web /Trabajo Final/Pre entrega3/scss/estilo.scss */
+  #principal h2 {
+    padding-top: 4%;
+  }
+  /* line 411, ../../../../../../../../../../../../../Users/ferminarpone/Desktop/Desarrollo Web /Trabajo Final/Pre entrega3/scss/estilo.scss */
+  #principal p {
+    margin-top: 4%;
+  }
+  /* line 415, ../../../../../../../../../../../../../Users/ferminarpone/Desktop/Desarrollo Web /Trabajo Final/Pre entrega3/scss/estilo.scss */
+  #principal .p1 {
+    width: 350px;
+  }
+  /* line 419, ../../../../../../../../../../../../../Users/ferminarpone/Desktop/Desarrollo Web /Trabajo Final/Pre entrega3/scss/estilo.scss */
+  #principal a {
+    margin: 6%;
+  }
+  /* line 424, ../../../../../../../../../../../../../Users/ferminarpone/Desktop/Desarrollo Web /Trabajo Final/Pre entrega3/scss/estilo.scss */
+  #encabezado {
+    position: absolute;
+  }
+  /* line 428, ../../../../../../../../../../../../../Users/ferminarpone/Desktop/Desarrollo Web /Trabajo Final/Pre entrega3/scss/estilo.scss */
+  .logo,
+  .titulo h1 {
+    z-index: 1;
+  }
+  /* line 432, ../../../../../../../../../../../../../Users/ferminarpone/Desktop/Desarrollo Web /Trabajo Final/Pre entrega3/scss/estilo.scss */
+  .menuH {
+    display: none;
+  }
+  /* line 435, ../../../../../../../../../../../../../Users/ferminarpone/Desktop/Desarrollo Web /Trabajo Final/Pre entrega3/scss/estilo.scss */
+  .menu {
+    height: 60px;
+    top: 0;
+    background: none;
+    transition: none;
+    text-align: right;
+    color: #151515;
+    width: 100%;
+  }
+  /* line 443, ../../../../../../../../../../../../../Users/ferminarpone/Desktop/Desarrollo Web /Trabajo Final/Pre entrega3/scss/estilo.scss */
+  .menu li {
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    padding-right: 20px;
+    font-size: 2rem;
+    line-height: 60px;
+  }
+  /* line 449, ../../../../../../../../../../../../../Users/ferminarpone/Desktop/Desarrollo Web /Trabajo Final/Pre entrega3/scss/estilo.scss */
+  .menu li a {
+    text-decoration: none;
+    text-align: center;
+    color: #151515;
+  }
+  /* line 472, ../../../../../../../../../../../../../Users/ferminarpone/Desktop/Desarrollo Web /Trabajo Final/Pre entrega3/scss/estilo.scss */
+  .menu ul li a:hover {
+    color: #ff6337db;
+    height: 18px;
+  }
 }
 
 @media screen and (min-width: 992px) {
-
-    #nosotros .titNos {
-
-        font-size: 3rem;
-
-    }
-
-    #nosotros .parNos {
-
-        font-size: 1.5rem;
-    }
+  /* line 481, ../../../../../../../../../../../../../Users/ferminarpone/Desktop/Desarrollo Web /Trabajo Final/Pre entrega3/scss/estilo.scss */
+  #nosotros .titNos {
+    font-size: 3rem;
+  }
+  /* line 484, ../../../../../../../../../../../../../Users/ferminarpone/Desktop/Desarrollo Web /Trabajo Final/Pre entrega3/scss/estilo.scss */
+  #nosotros .parNos {
+    font-size: 1.5rem;
+  }
 }
+
+/*# sourceMappingURL=estilo.css.map */
