@@ -224,13 +224,13 @@
 .titFooter {
   display: inline-block;
   font-family: "Roboto", sans-serif;
-  font-size: 1rem;
+  font-size: 1.4rem;
 }
 
 /* line 208, ../../../../../../../../../../../../../Users/ferminarpone/Desktop/Desarrollo Web /Trabajo Final/Pre entrega3/scss/estilo.scss */
 .footerD {
   display: inline-block;
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   padding-top: 5px;
 }
 
@@ -248,7 +248,7 @@
 .footerL h3 {
   display: inline-block;
   font-family: "Roboto", sans-serif;
-  font-size: 1rem;
+  font-size: 1.4rem;
   text-align: center;
   margin-bottom: 5px;
 }
@@ -258,7 +258,7 @@
   width: 30px;
   height: 30px;
   display: block;
-  margin-right: 40px;
+  margin-right: 67px;
 }
 
 /* line 238, ../../../../../../../../../../../../../Users/ferminarpone/Desktop/Desarrollo Web /Trabajo Final/Pre entrega3/scss/estilo.scss */
@@ -281,9 +281,14 @@
   justify-content: center;
 }
 
+#inspiracion .imgCenter img{
+  width: 400px;
+  height: 400px;
+}
 /* line 254, ../../../../../../../../../../../../../Users/ferminarpone/Desktop/Desarrollo Web /Trabajo Final/Pre entrega3/scss/estilo.scss */
 #inspiracion img {
   transition: .5s;
+  height: 200px;
 }
 
 /* line 257, ../../../../../../../../../../../../../Users/ferminarpone/Desktop/Desarrollo Web /Trabajo Final/Pre entrega3/scss/estilo.scss */
@@ -301,6 +306,10 @@
   justify-content: center;
 }
 
+#productos .imgCenter img{
+  width: 400px;
+  height: 400px;
+}
 /* line 270, ../../../../../../../../../../../../../Users/ferminarpone/Desktop/Desarrollo Web /Trabajo Final/Pre entrega3/scss/estilo.scss */
 #productos .tituloProd {
   margin: 70px 0px 20px 0px;
@@ -351,6 +360,7 @@
 /* line 312, ../../../../../../../../../../../../../Users/ferminarpone/Desktop/Desarrollo Web /Trabajo Final/Pre entrega3/scss/estilo.scss */
 #productos img {
   transition: .5s;
+  height: 200px;
 }
 
 /* line 314, ../../../../../../../../../../../../../Users/ferminarpone/Desktop/Desarrollo Web /Trabajo Final/Pre entrega3/scss/estilo.scss */
